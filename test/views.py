@@ -7,7 +7,7 @@ import json
 # Create your views here.
 def home(request):
     # return render(request,'longprofile/home.html')
-    return HttpResponse("Hello, world!")
+    return HttpResponse("Hello, world bipin!")
 def test(request):
     test_func.delay()
     return HttpResponse("Done")
