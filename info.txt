@@ -1,0 +1,11 @@
+djnago version check = django-admin --version
+project creation = django-admin startproject npm
+project run = python3 manage.py runserver
+
+
+installed items
+pip3 install celery    
+pip3 install redis
+
+celery start command
+celery -A celery_task.celery worker -l  info
